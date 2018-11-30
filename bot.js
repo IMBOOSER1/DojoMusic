@@ -94,4 +94,4 @@ client.on('message', msg => {
 	if (!msg.content.startsWith(tokens.prefix)) return;
 	if (commands.hasOwnProperty(msg.content.toLowerCase().slice(tokens.prefix.length).split(' ')[0])) commands[msg.content.toLowerCase().slice(tokens.prefix.length).split(' ')[0]](msg);
 });
-client.login(tokens.NTE1MTUyMzE2MDY0NTk1OTg3.DuK1xw.fM_-KcAft3BDIL5dY3-yByDLPB0);
+client.login("NTE1MTUyMzE2MDY0NTk1OTg3.DuK1xw.fM_-KcAft3BDIL5dY3-yByDLPB0");
